@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Button from "./Button";
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -17,37 +17,82 @@ const Navbar = () => {
           to="about"
           smooth={true}
           duration={500}
-          className="cursor-pointer"
+          className="cursor-pointer group"
         >
-          About
+          <p>About</p>
+          <span
+            className="
+      block 
+      h-0.5 
+      w-0 
+      bg-[#52BCC2]
+      transition-all 
+      duration-300 
+      group-hover:w-full
+    "
+          />
         </Link>
-       <Link
+         <Link
           to="skill"
           smooth={true}
           duration={500}
-          className="cursor-pointer"
+          className="cursor-pointer group"
         >
-          Skill
-        </Link>
-         <Link
-          to="project"
-          smooth={true}
-          duration={500}
-          className="cursor-pointer"
-        >
-          Project
-        </Link>
-         <Link
-          to="contact"
-          smooth={true}
-          duration={500}
-          className="cursor-pointer"
-        >
-          Contact
+          <p>Skill</p>
+          <span
+            className="
+      block 
+      h-0.5 
+      w-0 
+      bg-[#52BCC2]
+      transition-all 
+      duration-300 
+      group-hover:w-full
+    "
+          />
         </Link>
 
+ <Link
+          to="Project"
+          smooth={true}
+          duration={500}
+          className="cursor-pointer group"
+        >
+          <p>Project</p>
+          <span
+            className="
+      block 
+      h-0.5 
+      w-0 
+      bg-[#52BCC2]
+      transition-all 
+      duration-300 
+      group-hover:w-full
+    "
+          />
+        </Link>
 
-        
+         <Link
+          to="Contact"
+          smooth={true}
+          duration={500}
+          className="cursor-pointer group"
+        >
+          <p>Contact</p>
+          <span
+            className="
+      block 
+      h-0.5 
+      w-0 
+      bg-[#52BCC2]
+      transition-all 
+      duration-300 
+      group-hover:w-full
+    "
+          />
+        </Link>
+       
+
         <button className="cursor-pointer px-8 py-2 bg-[#00adb5] hover:bg-[#52bcc2] transition text-[#0C1D2C] rounded-full">
           Resume
         </button>
