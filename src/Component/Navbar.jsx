@@ -208,7 +208,7 @@ const Navbar = () => {
           />
         </Link>
         
-        <button onClick={() => window.open(resume)}  className="cursor-pointer px-6 py-2 mt-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full text-sm">
+        <button onClick={() =>{ window.open(resume); setOpen(false) }}  className="cursor-pointer px-6 py-2 mt-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full text-sm">
           RESUME
         </button>
       </div>
