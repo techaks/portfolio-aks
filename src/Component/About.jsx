@@ -7,10 +7,10 @@ const About = () => {
         ABOUT
       </p>
 
-      <div className=" md:w-2/3  ">
+      <div className=" md:w-2/3 pr-2  ">
         <div>
           <p className="text-2xl font-semibold mt-5 mb-5">
-            I am pursuing Computer Science Engineering .
+           I am currently pursuing a Bachelor of Technology ( <span className="text-[#43B9C0] ">B.Tech </span>  ) in Computer Science and Engineering.
           </p>
 
           <p className="text-2xl font-semibold mb-5">
