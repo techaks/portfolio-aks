@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <div className="ml-2 mt-10 md:mt-16 flex justify-betwen justify-evenly flex-col md:flex-row gap-8 md:gap-5 px-2">
+    <div className="ml-2 pt-24 md:mt-12 flex justify-betwen justify-evenly flex-col md:flex-row gap-8 md:gap-5 px-2">
       <div className="md:w-1/2">
         <p className=" text-3xl text-[#43B9C0] font-bold ">
         <span className="wave"> 🖐</span>   HI <span> I'm</span>
