@@ -1,12 +1,15 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+import Loader from "./Loader";
 
 const Contact = () => {
   const [isSent , setIssent] = useState(false);
+  const [loader,setLoader] = useState(0)
   const form  = useRef();
     const connectMe = (e)=>{
         e.preventDefault();
-
+        setLoader(true)
         emailjs.sendForm(
             "service_09cyyrz" , //service id
             "template_8rvpu5q", //template id
@@ -16,11 +19,15 @@ const Contact = () => {
         () => {
           setIssent(true);
           form.current.reset();
-          alert("Message sent successfully!");
+          toast.success("Message send👍");
+          setLoader(false)
+          
         },
         (error) => {
+          toast.error("failed")
           console.error("Failed to send message:", error);
-          alert("Failed to send. Please try again.");
+          setLoader(false)
+          
         }
       );
 
@@ -41,8 +48,13 @@ const Contact = () => {
             <input type="text" name="subject" required placeholder="Subject " className="outline-none w-full px-3 py-1 border-2 rounded-xl  border-[#00012C] bg-[#131025] focus:border-purple-500 my-3"/>
 
             <textarea id="" name="message" required  rows="5" placeholder="type message here ..." className=" resize-none border-2 rounded-xl  border-[#00012C] bg-[#131025] focus:border-purple-500 my-3 px-3 py-1 w-full focus:outline-none"></textarea>
+  <div className="  ">
+{
+  loader ? <Loader/> : <button type="submit" className="text-center w-full bg-gradient-to-r from-purple-600 to-pink-500 py-2 rounded-md cursor-pointer hover:opacity-80">SEND</button>
+}
+  </div>
 
-            <button type="submit" className="text-center w-full bg-gradient-to-r from-purple-600 to-pink-500 py-2 rounded-md cursor-pointer hover:opacity-80">SEND</button>
+           
 
             
 
