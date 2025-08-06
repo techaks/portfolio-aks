@@ -2,7 +2,7 @@ import React from "react";
 import { SkillsInfo } from "./constant";
 
 const Skill = () => {
-  console.log(SkillsInfo);
+  // console.log(SkillsInfo);
 
   return (
     <div className="skill text-white ml-4 md:ml-24 mt-12 ">

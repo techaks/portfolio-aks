@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-
+import devImg from '../assets/developer.png'
 const Hero = () => {
   return (
     <div className="ml-2 pt-24 md:mt-12 flex justify-betwen justify-evenly flex-col md:flex-row gap-8 md:gap-5 px-2">
@@ -41,7 +41,7 @@ const Hero = () => {
       <div>
         <img
           className="w-80 h-80  mx-auto float  "
-          src="/src/assets/developer.png"
+          src={devImg}
           alt="dev"
         />
       </div>
