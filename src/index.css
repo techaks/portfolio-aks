@@ -62,7 +62,7 @@
             }
 
             
-            /* Floating animation for image */
+            /* developer image */
 @keyframes float {
   0%, 100% {
     transform: scale(1);
