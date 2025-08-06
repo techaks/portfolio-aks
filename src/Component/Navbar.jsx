@@ -121,20 +121,90 @@ const Navbar = () => {
       <div
         className={`${
           open ? "flex" : "hidden"
-        } absolute top-[60px] mt-4 font-bold items-center left-0 w-full  shadow-md py-4 flex-col  gap-2 px-5 text-sm md:hidden`}
+        } absolute top-[60px]  font-bold items-center left-0 w-full  shadow-md py-4 flex-col  gap-2 px-5 text-sm md:hidden bg-[#0c1d2c]  `}
       >
-        <a href="#" className="block">
-          About
-        </a>
-        <a href="#" className="block">
-          Skill
-        </a>
-        <a href="#" className="block">
-          Project
-        </a>
-        <a href="#" className="block">
-          Contact
-        </a>
+         <Link
+          onClick={()=>setOpen(false)}
+          to="about"
+          smooth={true}
+          duration={500}
+          className="cursor-pointer group"
+        >
+          <p>About</p>
+          <span
+            className="
+      block 
+      h-0.5 
+      w-0 
+      bg-[#52BCC2]
+      transition-all 
+      duration-300 
+      group-hover:w-full
+    "
+          />
+        </Link>
+         <Link
+          onClick={()=>setOpen(false)}
+          to="skill"
+          smooth={true}
+          duration={500}
+          className="cursor-pointer group"
+        >
+          <p>Skill</p>
+          <span
+            className="
+      block 
+      h-0.5 
+      w-0 
+      bg-[#52BCC2]
+      transition-all 
+      duration-300 
+      group-hover:w-full
+    "
+          />
+        </Link>
+
+ <Link
+          to="Project"
+           onClick={()=>setOpen(false)}
+          smooth={true}
+          duration={500}
+          className="cursor-pointer group"
+        >
+          <p>Project</p>
+          <span
+            className="
+      block 
+      h-0.5 
+      w-0 
+      bg-[#52BCC2]
+      transition-all 
+      duration-300 
+      group-hover:w-full
+    "
+          />
+        </Link>
+       <Link
+          to="Contact"
+          onClick={()=>setOpen(false)}
+          smooth={true}
+          duration={500}
+          className="cursor-pointer group"
+        >
+          <p>Contact</p>
+          <span
+            className="
+      block 
+      h-0.5 
+      w-0 
+      bg-[#52BCC2]
+      transition-all 
+      duration-300 
+      group-hover:w-full
+    "
+          />
+        </Link>
+        
         <button className="cursor-pointer px-6 py-2 mt-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full text-sm">
           RESUME
         </button>

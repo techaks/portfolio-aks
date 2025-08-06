@@ -13,10 +13,10 @@ const Project = () => {
         PROJECTS
       </p>
 
-      <div className="mt-12 w-full md:w-2/3 mx-auto flex flex-wrap md:flex-nowrap  justify-center gap-14 pb-10 p-5 md:p-5">
+      <div className="mt-12 w-full md:w-[80%] mx-auto flex flex-wrap justify-center gap-14 pb-10 p-5 md:p-5">
         {projects.map((project, index) => (
           <div
-            className=" w-full md:w-2/3   bg-[#0d0d1f] rounded-lg p-2 border border-transparent 
+            className=" w-full md:w-[37%]  bg-[#0d0d1f] rounded-lg p-2 border border-transparent 
                 hover:border-purple-500 hover:shadow-[0_0_20px_#a855f7] 
                 transition-all duration-300 transform hover:scale-105 cursor-pointer"
           >

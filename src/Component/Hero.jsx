@@ -40,8 +40,8 @@ const Hero = () => {
 
       <div>
         <img
-          className="w-80 h-80 rounded-full mx-auto  "
-          src="/src/assets/developer.jpg"
+          className="w-80 h-80  mx-auto float  "
+          src="/src/assets/developer.png"
           alt="img"
         />
       </div>

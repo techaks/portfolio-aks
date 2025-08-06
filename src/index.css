@@ -60,3 +60,18 @@
                 background-size: 300% 300%;
                 animation: shine 6s ease-out infinite;
             }
+
+            
+            /* Floating animation for image */
+@keyframes float {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+.float {
+  animation: float 3s ease-in-out infinite;
+}

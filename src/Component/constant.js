@@ -106,5 +106,6 @@ export const SkillsInfo = [
 
       url: "https://job-portal-frontend-h1x0.onrender.com/",
     },
+    
    
   ];
