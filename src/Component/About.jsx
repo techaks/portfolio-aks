@@ -21,9 +21,7 @@ const About = () => {
             responsive web pages as requirements .
           </p>
           <p className="text-2xl font-semibold pb-5">
-            <span className="text-[#43B9C0]">Full Stack Development : </span> I
-            am frontend developer with strong command on React Js and building
-            responsive web pages as requirements .
+            <span className="text-[#43B9C0]">Full Stack Development : </span> i craft dynamic web applications using React Js and Node Js , with a strong grip on both frontend and backend technologies .
           </p>
         </div>
       </div>
