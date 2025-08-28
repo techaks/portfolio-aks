@@ -1,4 +1,4 @@
-import React from "react";
+
 import { SkillsInfo } from "./constant";
 
 const Skill = () => {
@@ -11,7 +11,7 @@ const Skill = () => {
       </p>
       <div className="mt-6 flex flex-wrap justify-center">
         {SkillsInfo.map((tech, index) => (
-          <div className="   md:w-[35%] border-2 border-[#2E64CB] m-3 rounded-md p-4 hover:rounded-xl">
+          <div className="   md:w-[35%] border-2 border-[#2E64CB] m-3 rounded-md p-4 hover:rounded-xl hover:border-[#0059ff]">
             <p className="text-xl font-bold text-[#43b9c0] text-center py-3">{tech.title}</p>
             <div className="flex gap-3 justify-center flex-wrap ">
               {tech.skills.map((skill, index) => (

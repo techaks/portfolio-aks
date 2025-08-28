@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import Button from "./Button";
 import { Link } from "react-scroll";
-import resume from '../assets/tech_logo/rr.pdf'
+import resume from "../assets/tech_logo/rr.pdf";
 
 const Navbar = () => {
-
   const [open, setOpen] = useState(false);
-  
+
   return (
     <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-2 text-white border-b border-gray-300  transition-all fixed top-0 left-0 w-full bg-[#0c1d2c] z-20   ">
       <div className="w-[145px]">
@@ -35,7 +34,7 @@ const Navbar = () => {
     "
           />
         </Link>
-         <Link
+        <Link
           to="skill"
           smooth={true}
           duration={500}
@@ -55,7 +54,7 @@ const Navbar = () => {
           />
         </Link>
 
- <Link
+        <Link
           to="Project"
           smooth={true}
           duration={500}
@@ -75,7 +74,7 @@ const Navbar = () => {
           />
         </Link>
 
-         <Link
+        <Link
           to="Contact"
           smooth={true}
           duration={500}
@@ -94,9 +93,11 @@ const Navbar = () => {
     "
           />
         </Link>
-       
 
-        <button onClick={() => window.open(resume)}   className="cursor-pointer px-8 py-2 bg-[#00adb5] hover:bg-[#52bcc2] transition text-[#0C1D2C] rounded-full">
+        <button
+          onClick={() => window.open(resume)}
+          className="cursor-pointer px-8 py-2 bg-[#00adb5] hover:bg-[#52bcc2] transition text-[#0C1D2C] rounded-full"
+        >
           Resume
         </button>
       </div>
@@ -126,8 +127,8 @@ const Navbar = () => {
           open ? "flex" : "hidden"
         } absolute top-[60px]  font-bold items-center left-0 w-full  shadow-md py-4 flex-col  gap-2 px-5 text-sm md:hidden bg-[#0c1d2c]  `}
       >
-         <Link
-          onClick={()=>setOpen(false)}
+        <Link
+          onClick={() => setOpen(false)}
           to="about"
           smooth={true}
           duration={500}
@@ -146,8 +147,8 @@ const Navbar = () => {
     "
           />
         </Link>
-         <Link
-          onClick={()=>setOpen(false)}
+        <Link
+          onClick={() => setOpen(false)}
           to="skill"
           smooth={true}
           duration={500}
@@ -167,9 +168,9 @@ const Navbar = () => {
           />
         </Link>
 
- <Link
+        <Link
           to="Project"
-           onClick={()=>setOpen(false)}
+          onClick={() => setOpen(false)}
           smooth={true}
           duration={500}
           className="cursor-pointer group"
@@ -187,9 +188,9 @@ const Navbar = () => {
     "
           />
         </Link>
-       <Link
+        <Link
           to="Contact"
-          onClick={()=>setOpen(false)}
+          onClick={() => setOpen(false)}
           smooth={true}
           duration={500}
           className="cursor-pointer group"
@@ -207,8 +208,14 @@ const Navbar = () => {
     "
           />
         </Link>
-        
-        <button onClick={() =>{ window.open(resume); setOpen(false) }}  className="cursor-pointer px-6 py-2 mt-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full text-sm">
+
+        <button
+          onClick={() => {
+            window.open(resume);
+            setOpen(false);
+          }}
+          className="cursor-pointer px-6 py-2 mt-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full text-sm"
+        >
           RESUME
         </button>
       </div>
