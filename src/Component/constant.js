@@ -21,6 +21,7 @@ import gitLogo from "../assets/tech_logo/git.png";
 import githubLogo from "../assets/tech_logo/github.png";
 import vscodeLogo from "../assets/tech_logo/vscode.png";
 import postmanLogo from "../assets/tech_logo/postman.png";
+import insta from "../assets/tech_logo/instagram.png";
 
 import vercelLogo from "../assets/tech_logo/vercel.png";
 
@@ -93,6 +94,26 @@ export const projects = [
   },
   {
     id: 1,
+    title: "INSTAGRAM ",
+    description:
+      "Developed a full-stack Instagram clone using the MERN stack, featuring user authentication, profile management, post creation, likes, and comments. Implemented secure JWT-based authentication with cookies, optimized REST APIs for scalability, and integrated responsive UI for seamless user experience.",
+    image: insta,
+    tags: [
+       "React JS",
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Redux",
+      "Cloudinary",
+    ],
+
+    url: "https://instagram-aks.vercel.app/",
+  },
+  {
+    id: 2,
     title: "JOB PORTAL",
     description:
       "A full-stack job portal built with the MERN stack where users can search and apply for jobs. Companies can register as admins and post job openings directly from their dashboards. The platform includes role-based access, authentication, and real-time job listings for a smooth hiring experience.",
@@ -111,4 +132,5 @@ export const projects = [
 
     url: "https://job-portal-frontend-h1x0.onrender.com/",
   },
+  
 ];
