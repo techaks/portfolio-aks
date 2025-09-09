@@ -30,8 +30,8 @@ const Contact = () => {
           
         }
       );
-
     }
+
   return (
     <div className="Contact text-white ml-4 md:ml-24 mt-12 pr-4">
       <p className="text-yellow-400 font-bold text-2xl border-b-2 inline border-b-sky-400 mt-6 ">
