@@ -11,7 +11,7 @@ import nodejsLogo from "../assets/tech_logo/nodejs.png";
 import expressjsLogo from "../assets/tech_logo/ex.png";
 import apiLogo from "../assets/tech_logo/api.png";
 import mongodbLogo from "../assets/tech_logo/mc.png";
-
+import helloJi from "../assets/tech_logo/helloJi.jpg"
 import cLogo from "../assets/tech_logo/c.png";
 import cppLogo from "../assets/tech_logo/cpp.png";
 
@@ -78,16 +78,9 @@ export const projects = [
     title: "HelloJi",
     description:
       "Developed a web app with WebSocket integration to enable real-time communication and dynamic updates with a responsive user interface. Leveraging WebSocket for real-time data exchange, ensuring fast, interactive, and seamless user experience.",
-    image: freshto,
+    image: helloJi,
     tags: [
-      "React JS",
-      "Node.js",
-      "MongoDB",
-      "Express",
-      "HTML",
-      "Tailwind CSS",
-      "JavaScript",
-      "Cloudinary",
+      "WebSocket", "MongoDB", "Express.js", "React", "Node.js",  "REST API", "JavaScript", "CSS" ,"Framer-Motion"
     ],
 
     url: "https://aks-helloji.vercel.app/",
