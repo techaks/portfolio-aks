@@ -75,6 +75,25 @@ export const SkillsInfo = [
 export const projects = [
   {
     id: 0,
+    title: "HelloJi",
+    description:
+      "Developed a web app with WebSocket integration to enable real-time communication and dynamic updates with a responsive user interface. Leveraging WebSocket for real-time data exchange, ensuring fast, interactive, and seamless user experience.",
+    image: freshto,
+    tags: [
+      "React JS",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "Cloudinary",
+    ],
+
+    url: "https://aks-helloji.vercel.app/",
+  },
+  {
+    id: 1,
     title: "Grocery Web App",
     description:
       "A MERN-based Grocery Store web application where users can browse and purchase grocery items online. The platform also includes a dedicated seller dashboard, enabling vendors to manage their products, update stock, and monitor orders efficiently.",
@@ -93,7 +112,7 @@ export const projects = [
     url: "https://freshto-app.onrender.com/",
   },
   {
-    id: 1,
+    id: 2,
     title: "INSTAGRAM ",
     description:
       "Developed a full-stack Instagram clone using the MERN stack, featuring user authentication, profile management, post creation, likes, and comments. Implemented secure JWT-based authentication with cookies, optimized REST APIs for scalability, and integrated responsive UI for seamless user experience.",
@@ -113,7 +132,7 @@ export const projects = [
     url: "https://instagram-aks.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "JOB PORTAL",
     description:
       "A full-stack job portal built with the MERN stack where users can search and apply for jobs. Companies can register as admins and post job openings directly from their dashboards. The platform includes role-based access, authentication, and real-time job listings for a smooth hiring experience.",
