@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from "./Button";
 import { Link } from "react-scroll";
 import resume from "../assets/tech_logo/rr.pdf";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -12,6 +13,10 @@ const Navbar = () => {
         {" "}
         <Button />
       </div>
+
+      {
+        <ThemeToggle />
+      }
 
       {/* Desktop Menu */}
       <div className="hidden sm:flex items-center gap-8 font-bold">
