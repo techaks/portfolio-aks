@@ -3,11 +3,7 @@ import Button from "./Button";
 import { Link } from "react-scroll";
 import resume from "../assets/tech_logo/rr.pdf";
 
-
-
 const Navbar = () => {
-
- 
 
 
   return (
