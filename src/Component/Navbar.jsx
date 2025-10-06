@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import resume from "../assets/tech_logo/rr.pdf";
 
 const Navbar = () => {
-
+  const [open, setOpen] = useState(false);
 
   return (
     <nav className="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-2 text-white border-b border-gray-300  transition-all fixed top-0 left-0 w-full bg-[#0c1d2c] z-20    ">
@@ -12,7 +12,6 @@ const Navbar = () => {
         {" "}
         <Button />
       </div>
-
 
       {/* Desktop Menu */}
       <div className="hidden sm:flex items-center gap-8 font-bold">
