@@ -11,7 +11,8 @@ import nodejsLogo from "../assets/tech_logo/nodejs.png";
 import expressjsLogo from "../assets/tech_logo/ex.png";
 import apiLogo from "../assets/tech_logo/api.png";
 import mongodbLogo from "../assets/tech_logo/mc.png";
-import helloJi from "../assets/tech_logo/helloJi.jpg"
+import helloJi from "../assets/tech_logo/helloJi.jpg";
+import funding from "../assets/tech_logo/funding.png";
 import cLogo from "../assets/tech_logo/c.png";
 import cppLogo from "../assets/tech_logo/cpp.png";
 
@@ -45,8 +46,8 @@ export const SkillsInfo = [
     skills: [
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
-      { name:"Rest API" , logo :apiLogo},
-      { name: "MongoDB", logo: mongodbLogo }
+      { name: "Rest API", logo: apiLogo },
+      { name: "MongoDB", logo: mongodbLogo },
     ],
   },
   {
@@ -80,7 +81,15 @@ export const projects = [
       "Developed a web app with WebSocket integration to enable real-time communication and dynamic updates with a responsive user interface. Leveraging WebSocket for real-time data exchange, ensuring fast, interactive, and seamless user experience.",
     image: helloJi,
     tags: [
-      "WebSocket", "MongoDB", "Express.js", "React", "Node.js",  "REST API", "JavaScript", "CSS" ,"Framer-Motion"
+      "WebSocket",
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "REST API",
+      "JavaScript",
+      "CSS",
+      "Framer-Motion",
     ],
 
     url: "https://aks-helloji.vercel.app/",
@@ -89,7 +98,7 @@ export const projects = [
     id: 1,
     title: "Grocery Web App",
     description:
-      "A MERN-based Grocery Store web application where users can browse and purchase grocery items online. The platform also includes a dedicated seller dashboard, enabling vendors to manage their products, update stock, and monitor orders efficiently.",
+      "A MERN-based Grocery Store web application where users can browse and purchase grocery items online. The platform also includes a dedicated seller dashboard, enabling vendors to manage their products, update stock, and monitor orders efficiently. Implemented secure user authentication, responsive design ",
     image: freshto,
     tags: [
       "React JS",
@@ -106,22 +115,20 @@ export const projects = [
   },
   {
     id: 2,
-    title: "FUNDING APP" ,
+    title: "FUNDING APP",
     description:
-      "A modern platform designed to connect startup founders and investors seamlessly. Founders can post their innovative projects, showcase business ideas, and raise funds transparently, while investors can explore verified opportunities and invest "  ,
-    image: insta,
+      "A modern platform designed to connect startup founders and investors seamlessly. Founders can post their innovative projects, showcase business ideas, and raise funds transparently, while investors can explore verified opportunities and invest securely. The app features user authentication . ",
+    image: funding,
     tags: [
       "React JS",
       "Aceternity UI",
- "Redux",
+      "Redux",
       "Tailwind CSS",
       "JavaScript",
       "Node.js",
       "Cloudinary",
       "MongoDB",
       "Express",
-     
-      
     ],
 
     url: "https://instagram-aks.vercel.app/",
@@ -130,10 +137,10 @@ export const projects = [
     id: 2,
     title: "INSTAGRAM ",
     description:
-      "Developed a full-stack Instagram clone using the MERN stack, featuring user authentication, profile management, post creation, likes, and comments. Implemented secure JWT-based authentication with cookies, optimized REST APIs for scalability, and integrated responsive UI for seamless user experience.",
+      "Developed a full-stack Instagram clone using the MERN stack, featuring user authentication, profile management, post creation, likes, and comments. Implemented secure authentication with cookies, optimized REST APIs for scalability, and integrated responsive UI for seamless user experience.",
     image: insta,
     tags: [
-       "React JS",
+      "React JS",
       "HTML",
       "Tailwind CSS",
       "JavaScript",
@@ -166,5 +173,4 @@ export const projects = [
 
     url: "https://job-portal-frontend-h1x0.onrender.com/",
   },
-  
 ];
