@@ -106,6 +106,28 @@ export const projects = [
   },
   {
     id: 2,
+    title: "FUNDING APP" ,
+    description:
+      "A modern platform designed to connect startup founders and investors seamlessly. Founders can post their innovative projects, showcase business ideas, and raise funds transparently, while investors can explore verified opportunities and invest "  ,
+    image: insta,
+    tags: [
+      "React JS",
+      "Aceternity UI",
+ "Redux",
+      "Tailwind CSS",
+      "JavaScript",
+      "Node.js",
+      "Cloudinary",
+      "MongoDB",
+      "Express",
+     
+      
+    ],
+
+    url: "https://instagram-aks.vercel.app/",
+  },
+  {
+    id: 2,
     title: "INSTAGRAM ",
     description:
       "Developed a full-stack Instagram clone using the MERN stack, featuring user authentication, profile management, post creation, likes, and comments. Implemented secure JWT-based authentication with cookies, optimized REST APIs for scalability, and integrated responsive UI for seamless user experience.",
