@@ -29,6 +29,8 @@ const Hero = () => {
           <p className="font-semibold mb-4 mt-5 text-3xl bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
             I build dynamic, responsive, and scalable web applications using the
             MERN stack.
+
+            
           </p>
 
           <p className="font-semibold  text-3xl bg-gradient-to-r from-blue-500 to-purple-600  bg-clip-text text-transparent">
