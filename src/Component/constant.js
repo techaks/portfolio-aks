@@ -78,7 +78,7 @@ export const projects = [
     id: 0,
     title: "HelloJi",
     description:
-      "Developed a web app with WebSocket integration to enable real-time communication and dynamic updates with a responsive user interface. Leveraging WebSocket for real-time data exchange, ensuring fast, interactive, and seamless user experience.",
+      "Developed a web app with WebSocket integration to enable real-time communication and dynamic updates with a responsive user interface. Leveraging WebSocket for real-time data exchange, ensuring fast, interactive, and seamless user experience .",
     image: helloJi,
     tags: [
       "WebSocket",
