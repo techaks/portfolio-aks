@@ -131,7 +131,7 @@ export const projects = [
       "Express",
     ],
 
-    url: "https://instagram-aks.vercel.app/",
+    url: "https://aks-funding.vercel.app/",
   },
   {
     id: 2,
