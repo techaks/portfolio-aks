@@ -15,6 +15,7 @@ import helloJi from "../assets/tech_logo/helloJi.jpg";
 import funding from "../assets/tech_logo/funding.png";
 import cLogo from "../assets/tech_logo/c.png";
 import cppLogo from "../assets/tech_logo/cpp.png";
+import leetcode from "../assets/tech_logo/leet.png"
 
 import pythonLogo from "../assets/tech_logo/python.png";
 
@@ -75,6 +76,30 @@ export const SkillsInfo = [
 
 export const projects = [
   {
+  id: 1,
+  title: "CodeJudge",
+  description:
+    "Developed a full-stack LeetCode-like coding platform with secure authentication, real-time code execution, dynamic problem management, user streak tracking, activity heatmaps, and a discussion system with likes. Built responsive and interactive UI components to provide a seamless coding practice experience.",
+    
+  image: leetcode,
+
+  tags: [
+    "Next.js",
+    "MongoDB",
+    "NextAuth",
+    "React",
+    "Node.js",
+    "Tailwind CSS",
+    "REST API",
+    "JavaScript",
+    "Monaco Editor",
+    "Framer Motion",
+  ],
+
+  url: "https://leetcode-jk5q.vercel.app/",
+},
+  {
+
     id: 0,
     title: "HelloJi",
     description:
